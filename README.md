@@ -64,7 +64,11 @@ To declare a constant (unchanging) variable, use const instead of let:<br>
 Variables declared using const are called “constants”. They cannot be reassigned. An attempt to do so would cause an error<br>
 
 <code>const myBirthday = '18.04.1982';<br>
+	
+	
 myBirthday = '01.01.2001'; // error, can't reassign the constant!<br>
+
+
 </code><br>
 When a programmer is sure that a variable will never change, they can declare it with const to guarantee and clearly communicate that fact to everyone.<br>
 <h3>TypeOf variables</h3>
@@ -75,8 +79,14 @@ In short When the variable is not initialized the typeof variable is undefined, 
 A string in JavaScript must be surrounded by quotes.<br>
 <code>
 let str = "Hello";<br>
+	
+	
 let str2 = 'Single quotes are ok too';<br>
+
+
 let phrase = `can embed ${str}`;<br>
+
+
 </code>
 In JavaScript, there are 3 types of quotes.<br>
     Double quotes: "Hello".<br>
@@ -86,11 +96,23 @@ Double and single quotes are “simple” quotes. There’s no difference betwee
 
 Backticks are “extended functionality” quotes. They allow us to embed variables and expressions into a string by wrapping them in ${…}, for example:<br>
 <code>
+	
+	
 let name = "John";<br>
+	
+	
 // embed a variable<br>
+
+
 alert( `Hello, ${name}!` ); // Hello, John!<br>
+
+
 // embed an expression<br>
+
+
 alert( `the result is ${1 + 2}` ); // the result is 3<br>
+
+
 </code><br>
 The expression inside ${…} is evaluated and the result becomes a part of the string. We can put anything in there: a variable like name or an arithmetical expression like 1 + 2 or something more complex.<br>
 
@@ -102,10 +124,20 @@ The expression inside ${…} is evaluated and the result becomes a part of the s
 A function is a set of statements that take inputs, do some specific computation and produces output. Basically, a function is a set of statements that performs some tasks or does some computation and then returns the result to the user.<br>
 <b>Syntax</b>
 <code>
+	
+	
 	function functionName(Parameter1, Parameter2, ..)<br>
+	
+	
 {
+
+
     // Function body<br>
+    
+    
 }
+
+
 </code>
 
 <h3>Objects in JavaScript</h3>
@@ -113,9 +145,17 @@ An object can be created with figure brackets {…} with an optional list of pro
 To understand this rather abstract definition, let us look at an example of a JavaScript Object :<br>
 <code>
 let school = {<br>
+	
+	
     name : "AIT",<br>
+    
+    
     location : "Pune",<br>
+    
+    
     established : "1994"<br>
+    
+    
 }</code><br>
 Each of these keys is referred to as properties of the object. An object in JavaScript may also have a function as a member, in which case it will be known as a method of that object.
 </br>
@@ -124,12 +164,26 @@ Let us see such an example :
 <code>
 // javascript code demonstrating a simple object ,<br>
 let college = { <br>
+	
+	
     name: 'AIT', <br>
+    
+    
     location : 'Pune',<br> 
+    
+    
     established : '1994', <br>
+    
+    
     displayInfo : function(){ <br>
+    
+    
         console.log(`${college.name} was established  <br>
+	
+	
               in ${school.established} at ${college.location}`); <br>
+	      
+	      
     } <br>
 } <br>
 school.displayInfo();    
