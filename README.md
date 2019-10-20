@@ -163,12 +163,10 @@ Let us see such an example :
 <br>
 <code>
 
-
 // javascript code demonstrating a simple object ,<br>
-
-
 let college = {
-    
+
+
     name: 'AIT', <br>
     location : 'Pune',<br> 
     established : '1994', <br>
