@@ -36,7 +36,6 @@ To include and run JavaScript in your HTML file, you need to include the JavaScr
 2)	JS code inside HTML file<br>
 <code>
 	
-	
 	<script>
 		//Your JS code here<br>
 	</script><br>
@@ -83,8 +82,6 @@ A string in JavaScript must be surrounded by quotes.<br>
 	let str = "Hello";
 	let str2 = 'Single quotes are ok too';
 	let phrase = `can embed ${str}`;
-
-
 </code>
 In JavaScript, there are 3 types of quotes.<br>
     Double quotes: "Hello".<br>
@@ -93,8 +90,8 @@ In JavaScript, there are 3 types of quotes.<br>
 Double and single quotes are “simple” quotes. There’s no difference between them in JavaScript.<br>
 
 Backticks are “extended functionality” quotes. They allow us to embed variables and expressions into a string by wrapping them in ${…}, for example:<br>
-<code>
-		
+<code>	
+	
 	let name = "John";
 	// embed a variable
 	alert( `Hello, ${name}!` ); // Hello, John!
@@ -147,11 +144,3 @@ Let us see such an example :
     school.displayInfo();    
 </code>
 
-<h3>ToDo Assignment</h3>
-<ol>
-	<li>Make a HTML form and have proper input fields as required for a resume.</li>
-	<li>Get the values from the form by the use of document.getElementById('id_name').value after click of submit button</li>
-	<li>Make a Simple template resume format and fit the picked up values in that template by the use of `${variable_name}` format as explained above.</li>
-	
-</ol>
-	
