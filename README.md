@@ -64,7 +64,34 @@ To declare a constant (unchanging) variable, use const instead of let:<br>
 Variables declared using const are called “constants”. They cannot be reassigned. An attempt to do so would cause an error<br>
 
 <code>const myBirthday = '18.04.1982';
-
 myBirthday = '01.01.2001'; // error, can't reassign the constant!
-</code>
+</code><br>
 When a programmer is sure that a variable will never change, they can declare it with const to guarantee and clearly communicate that fact to everyone.<br>
+
+
+<h3>A string</h3>
+
+A string in JavaScript must be surrounded by quotes.<br>
+<code>
+let str = "Hello";
+let str2 = 'Single quotes are ok too';
+let phrase = `can embed ${str}`;
+</code>
+In JavaScript, there are 3 types of quotes.<br>
+    Double quotes: "Hello".<br>
+    Single quotes: 'Hello'.<br>
+    Backticks: `Hello`.<br>
+Double and single quotes are “simple” quotes. There’s no difference between them in JavaScript.<br>
+
+Backticks are “extended functionality” quotes. They allow us to embed variables and expressions into a string by wrapping them in ${…}, for example:<br>
+<code>
+let name = "John";
+// embed a variable
+alert( `Hello, ${name}!` ); // Hello, John!
+// embed an expression
+alert( `the result is ${1 + 2}` ); // the result is 3
+</code><br>
+The expression inside ${…} is evaluated and the result becomes a part of the string. We can put anything in there: a variable like name or an arithmetical expression like 1 + 2 or something more complex.<br>
+
+<b>Please note that this can only be done in backticks. Other quotes don’t have this embedding functionality!<b><br>
+	<code>alert( "the result is ${1 + 2}" ); // the result is ${1 + 2} (double quotes do nothing)</code>
