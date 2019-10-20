@@ -167,25 +167,13 @@ let college = { <br>
 	
 	
     name: 'AIT', <br>
-    
-    
     location : 'Pune',<br> 
-    
-    
     established : '1994', <br>
-    
-    
     displayInfo : function(){ <br>
-    
-    
-        console.log(`${college.name} was established  <br>
-	
-	
-              in ${school.established} at ${college.location}`); <br>
-	      
-	      
-    } <br>
-} <br>
+    console.log(`${college.name} was established  <br>
+     in ${school.established} at ${college.location}`); <br>
+	} <br>
+	} <br>
 school.displayInfo();    
 </code>
 
