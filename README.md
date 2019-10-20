@@ -36,14 +36,35 @@ To include and run JavaScript in your HTML file, you need to include the JavaScr
 	//Your JS code here
 </script>'
   </code>
-<b><h3>JavaScript as a programming Language</h3></b>
-<b>Variables</b><br>
+<b><h2>JavaScript as a programming Language</h2></b>
+<h3>Variables</h3><br>
 Most of the time, a JavaScript application needs to work with information. Here are two examples:<br>
 1.	An online shop – the information might include goods being sold and a shopping cart.<br>
 2.	A chat application – the information might include users, messages, and much more.<br>
 Variables are used to store this information.<br>
 A variable is a “named storage” for data. To create a variable in JavaScript, use the let keyword.<br>
 The statement below creates a variable with the name “message”:<br>
-<code>let message ;</code>
+<code>let message ;</code><br>
+We can also change it as many times as we want:
+<code>
+let message;
 
+message = 'Hello!';
 
+message = 'World!'; // value changed
+
+alert(message); //alert is used to pop up an alert on the page
+</code>
+When the value is changed, the old data is removed from the variable:
+<br>
+<h3>Constants</h3>
+To declare a constant (unchanging) variable, use const instead of let:<br>
+<code>const myBirthday = '18.04.1982';</code><br>
+
+Variables declared using const are called “constants”. They cannot be reassigned. An attempt to do so would cause an error<br>
+
+<code>const myBirthday = '18.04.1982';
+
+myBirthday = '01.01.2001'; // error, can't reassign the constant!
+</code>
+When a programmer is sure that a variable will never change, they can declare it with const to guarantee and clearly communicate that fact to everyone.<br>
