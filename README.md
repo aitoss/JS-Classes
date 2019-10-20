@@ -163,18 +163,16 @@ Let us see such an example :
 <br>
 <code>
 
-// javascript code demonstrating a simple object ,<br>
-let college = {
+    let college = {
 
-
-    name: 'AIT', <br>
-    location : 'Pune',<br> 
-    established : '1994', <br>
-    displayInfo : function(){ <br>
-    console.log(`${college.name} was established  <br>
-     in ${school.established} at ${college.location}`); <br>
-	} <br>
-	} <br>
+    name: 'AIT', 
+    location : 'Pune', 
+    established : '1994', 
+    displayInfo : function(){ 
+    console.log(`${college.name} was established  
+     in ${school.established} at ${college.location}`); 
+	} 
+	} 
 school.displayInfo();    
 </code>
 
