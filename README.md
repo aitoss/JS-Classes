@@ -1,4 +1,4 @@
-<h2>What is JavaScript?</h2><br>
+<h2>What is JavaScript?</h2>
 JavaScript was initially created to “make web pages alive”.<br>
 The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
 Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.<br>
@@ -29,13 +29,13 @@ The engine applies optimizations at each step of the process. It even watches th
 To include and run JavaScript in your HTML file, you need to include the JavaScript File by the <script> tag or you can also write the javascript code inside the HTML file in the script tag.
 
 1)	Include External File<br>
-<code>'<script src=”path/to/js/file”></script>'</code><br>
+<code><script src="path_to_js_file"></script></code><br>
 2)	JS code inside HTML file<br>
 <code>
-<script<br>
+<script><br>
 	//Your JS code here<br>
 </script><br>
-  </code>
+  </code><br>
 <b><h2>JavaScript as a programming Language</h2></b>
 <h3>Variables</h3><br>
 Most of the time, a JavaScript application needs to work with information. Here are two examples:<br>
@@ -135,3 +135,11 @@ let college = { <br>
 school.displayInfo();    
 </code>
 
+<h3>ToDo Assignment</h3>
+<ol>
+	<li>Make a HTML form and have proper input fields as required for a resume.</li>
+	<li>Get the values from the form by the use of document.getElementById('id_name').value after click of submit button</li>
+	<li>Make a Simple template resume format and fit the picked up values in that template by the use of `${variable_name}` format as explained above.</li>
+	
+</ol>
+	
