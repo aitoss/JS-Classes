@@ -113,9 +113,9 @@ An object can be created with figure brackets {…} with an optional list of pro
 To understand this rather abstract definition, let us look at an example of a JavaScript Object :<br>
 <code>
 let school = {<br>
-    name : "Vivekananda School",<br>
-    location : "Delhi",<br>
-    established : "1971"<br>
+    name : "AIT",<br>
+    location : "Pune",<br>
+    established : "1994"<br>
 }</code><br>
 Each of these keys is referred to as properties of the object. An object in JavaScript may also have a function as a member, in which case it will be known as a method of that object.
 </br>
