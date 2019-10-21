@@ -37,6 +37,27 @@ body {
 #inputContainer h2{
 	text-align: center;
 }
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:   #fff;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+}
 #inputContainer input[type="text"],
 #inputContainer input[type="email"],
 #inputContainer input[type="password"]{
@@ -45,5 +66,21 @@ body {
 	border: 0;
 	border-bottom: 1px solid #fff;
 	height:27px;
+	width: 100%;
+}
+#inputContainer label{
+	color:#a0a0a0;
+	font-size:13px;
+	margin-top:15px;
+
+}
+#inputContainer button{
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius:250px;
+	color:#fff;
+	letter-spacing: 1px;
+	margin: 40px auto;
+	height: 40px;
 	width: 100%;
 }
