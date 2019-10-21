@@ -1,4 +1,4 @@
-#Sample Solution
+# Sample Solution
 This is a **Sample Solution** for the assignment given on Day 1.
 Many changes have to be done on this solution. So bring out your creativity and knowledge and modify this.
 [x]Fork this repo 
