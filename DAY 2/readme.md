@@ -51,5 +51,6 @@ myArray[2] = myCars;
     for (i = 0; i < fLen; i++) {
     text += "<li>" + fruits[i] + "</li>";
     }
-    text += "</ul>"; </code>
+    text += "</ul>";                    
+   </code>
 
