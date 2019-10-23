@@ -122,5 +122,11 @@ Since JavaScript arrays are objects, elements can be deleted by using the JavaSc
     delete fruits[0];           // Changes the first element in fruits to undefined
 
 Using delete may leave undefined holes in the array. Use pop() or shift() instead.
+<h3>Merging (Concatenating) Arrays</h3>
+    The concat() method creates a new array by merging (concatenating) existing arrays:
+Example (Merging Two Arrays)
 
-    
+
+    var myGirls = ["Cecilie", "Lone"];
+    var myBoys = ["Emil", "Tobias", "Linus"];
+    var myChildren = myGirls.concat(myBoys);   // Concatenates (joins) myGirls and myBoys 
