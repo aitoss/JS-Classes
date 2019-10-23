@@ -29,17 +29,21 @@ JavaScript variables can be objects. Arrays are special kinds of objects.
 Because of this, you can have variables of different types in the same Array.
 
 You can have objects in an Array. You can have functions in an Array. You can have arrays in an Array:
+
+<code>
+    
+    
 myArray[0] = Date.now;
 myArray[1] = myFunction;
 myArray[2] = myCars;
-
+</code>
 
 <h2>Looping Array Elements</h2>
 
 <h4>The safest way to loop through an array, is using a for loop:</h4>
-<code>  
+<code> 
     
- var fruits, text, fLen, i;
+    var fruits, text, fLen, i;
 fruits = ["Banana", "Orange", "Apple", "Mango"];
 fLen = fruits.length;
 
@@ -47,5 +51,5 @@ text = "<ul>";
 for (i = 0; i < fLen; i++) {
   text += "<li>" + fruits[i] + "</li>";
 }
-text += "</ul>";</code>
+text += "</ul>"; </code>
 
