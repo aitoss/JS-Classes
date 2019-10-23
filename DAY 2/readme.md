@@ -12,14 +12,16 @@ Example:</h4><br>
     
 <h2> Accessing Array Elements </h2>
 <h4>Array in JavaScript are indexed from 0 so we can access array elements as follows:</h4>
-
+<code>
+    
+    
 var house = ["1BHK", 25000, "2BHK", 50000, "Rent", true]; 
 alert(house[0]+" cost= "+house[1]); 
 var cost_1BHK = house[1]; 
 var is_for_rent = house[5]; 
 alert("Cost of 1BHK = "+ cost_1BHK); 
 alert("Is house for rent = ")+ is_for_rent);
-
+</code>
 <h2>Array Elements Can Be Objects</h2>
 
 JavaScript variables can be objects. Arrays are special kinds of objects.
@@ -35,14 +37,15 @@ myArray[2] = myCars;
 <h2>Looping Array Elements</h2>
 
 <h4>The safest way to loop through an array, is using a for loop:</h4>
-
-var fruits, text, fLen, i;
+<code>  
+    
+ var fruits, text, fLen, i;
 fruits = ["Banana", "Orange", "Apple", "Mango"];
 fLen = fruits.length;
 
 text = "<ul>";
 for (i = 0; i < fLen; i++) {
-  text += + fruits[i] + ;
+  text += "<li>" + fruits[i] + "</li>";
 }
-text += ;
+text += "</ul>";</code>
 
