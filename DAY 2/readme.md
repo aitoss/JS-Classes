@@ -69,4 +69,58 @@ myArray[2] = myCars;
     
    Array.forEach() calls a function for each array element.
 
+<h2>Converting Arrays to Strings</h2>
 
+The JavaScript method toString() converts an array to a string of (comma separated) array values.
+
+     var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("demo").innerHTML = fruits.toString();
+    
+    
+<h2>Popping and Pushing</h2>
+
+When you work with arrays, it is easy to remove elements and add new elements.
+
+This is what popping and pushing is:
+
+Popping items out of an array, or pushing items into an array.    
+
+<h3>Popping</h3>
+
+The pop() method removes the last element from an array:
+
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.pop();              // Removes the last element ("Mango") from fruits 
+    
+    
+<h3>Pushing</h3>
+
+The push() method adds a new element to an array (at the end):
+
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.push("Kiwi");       //  Adds a new element ("Kiwi") to fruits 
+    
+  <h3>Shifting Elements</h3>
+
+Shifting is equivalent to popping, working on the first element instead of the last.
+
+The shift() method removes the first array element and "shifts" all other elements to a lower index.
+
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.shift();            // Removes the first element "Banana" from fruits   
+    
+The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.unshift("Lemon");    // Adds a new element "Lemon" to fruits 
+    
+ <h3>Deleting Elements</h3>
+
+Since JavaScript arrays are objects, elements can be deleted by using the JavaScript operator delete:
+
+    var  fruits = ["Banana", "Orange", "Apple", "Mango"];
+    delete fruits[0];           // Changes the first element in fruits to undefined
+
+Using delete may leave undefined holes in the array. Use pop() or shift() instead.
+
+    
