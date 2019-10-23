@@ -53,4 +53,20 @@ myArray[2] = myCars;
     }
     text += "</ul>";                    
    </code>
+   
+  <h4> You can also use the Array.forEach() function:</h4>
+
+     var fruits, text;
+    fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+    text = "<ul>";
+    fruits.forEach(myFunction);
+    text += "</ul>";
+
+    function myFunction(value) {
+    text += "<li>" + value + "</li>";
+    } 
+    
+   Array.forEach() calls a function for each array element.
+
 
