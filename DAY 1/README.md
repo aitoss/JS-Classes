@@ -1,3 +1,6 @@
+
+<b><h2>JavaScript as a programming Language</h2></b>
+<h3>Variables</h3><br>
 Most of the time, a JavaScript application needs to work with information. Here are two examples:<br>
 1.	An online shop – the information might include goods being sold and a shopping cart.<br>
 2.	A chat application – the information might include users, messages, and much more.<br>
