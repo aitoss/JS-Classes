@@ -1,3 +1,5 @@
+# Do implement everything explained here<br> 
+
 # Interaction: alert, prompt, confirm
 
 But we’ll still be using the browser as our demo environment, so we should know at least a few of its user-interface functions. In this chapter, we’ll get familiar with the browser functions <code>alert</code>, <code>prompt</code> and <code>confirm</code>.
