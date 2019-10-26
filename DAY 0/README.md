@@ -39,7 +39,6 @@ To include and run JavaScript in your HTML file, you need to include the JavaScr
 	
 	<script>
 		//Your JS code here<br>
-	</script><br>
-  </code><br>
-<b><h2>JavaScript as a programming Language</h2></b>
-<h3>Variables</h3><br>
+	</script>
+  
+  </code>
