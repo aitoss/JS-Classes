@@ -1,3 +1,4 @@
+
 # JS-Classes
 
 This repo is for the purpose of learning the basics of JavaScript. It is made under *JavaScript week of code Program*.

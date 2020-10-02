@@ -1,0 +1,86 @@
+html,
+body {
+	padding:0;
+	margin:0;
+	height: 100%;
+}
+
+#background{
+	background-image: url("b.jpg"); 
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	display: table;
+	height: 100%;
+	width: 100%;
+
+}
+#loginContainer * {
+	color: white;
+	font-family: "helvetica neue","helvetica", "Arial";
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+#loginContainer {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1024px;
+}
+#inputContainer{
+	width: 400px;
+	padding:45px;
+	float: left;
+	border-right: 1px solid #999;
+}
+#inputContainer h2{
+	text-align: center;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:   #fff;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+}
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+	display: block;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #fff;
+	height:27px;
+	width: 100%;
+}
+#inputContainer label{
+	color:#a0a0a0;
+	font-size:13px;
+	margin-top:15px;
+
+}
+#inputContainer button{
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius:250px;
+	color:#fff;
+	letter-spacing: 1px;
+	margin: 40px auto;
+	height: 40px;
+	width: 100%;
+}

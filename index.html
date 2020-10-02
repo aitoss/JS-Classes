@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resume form</title>
+	<link rel="stylesheet" type="text/css" href="input-form.css">
+
+</head>
+<body>
+	<div id="background">
+		        <div id="loginContainer">
+				    <div id="inputContainer">
+					<form name="login" id="loginForm" onsubmit="return validateform() ;" method="post">
+						<H2>Login to your acount</H2>
+						<p>
+							<label for="loginUsername">UserName</label>
+							<input id="loginUsername" type="text" name="loginUsername" placeholder='eg. BradPitt' required></p>
+						<p>
+		                      <label for="loginPassword">Password</label>
+							<input id="loginPassword" type="text" name="loginPassword" placeholder="**********"required></p>
+							<button type="submit" onclick="validate()" name="loginbutton">LOG IN</button>
+					</form>	
+					<div id="inputContainer">
+					<form name="reg" id="REGISTERFORM" onsubmit="return validate()" method="post">
+						<H2>Create new account for Resume</H2>
+						<p>
+							<label for="Username">UserName</label>
+							<input id="Username" type="text" name="Username"placeholder='eg. BradPitt' required></p>
+						<p>
+							<label for="Fristname">FristName</label>
+							<input id="Fristname" type="text" name="Fristname"placeholder='eg. Brad' required></p>
+						<p>
+							<label for="lastname">LastName</label>
+							<input id="lastname" type="text" name="lastname"placeholder='eg. Pitt' required></p>
+						<p>
+							<label for="email">Email</label>
+							<input id="email" type="email" name="email"placeholder='eg. xyz@abc.com' required></p>
+						<p>
+							<label for="cemail">Confirm Email</label>
+							<input id="cemail" type="email" name="cemail"placeholder='eg. xyz@abc.com' required></p>
+
+						<p>
+		                      <label for="Password">Password</label>
+							<input id="Password" type="password" name="Password"placeholder="**********"required></p>
+						<p>
+		                      <label for="CPassword"> Confirm Password</label>
+							<input id="CPassword" type="password" name="CPassword"placeholder="**********"required></p>
+						  <label for="skills">Skills</label>
+							<input id="skill1" type="text" placeholder="1." name="skills"required>
+							<input id="skill2" type="text" placeholder="2." name="skills"required>
+							<input id="skill3" type="text" placeholder="3." name="skills">
+							<input id="skill4" type="text" placeholder="4."name="skills">
+							<input id="skill5" type="text" placeholder="5."name="skills">
+							<input id="skill6" type="text" placeholder="6."name="skills"></p>
+						<p>
+
+		                      <label for="edu">Educational Qualification</label>
+							<input id="skill1" type="text" placeholder="1." name="skills"required>
+							<input id="skill2" type="text" placeholder="2." name="skills"required>
+							<input id="skill3" type="text" placeholder="3." name="skills">
+							<input id="skill4" type="text" placeholder="4."name="skills">
+							<input id="skill5" type="text" placeholder="5."name="skills">
+							<input id="skill6" type="text" placeholder="6."name="skills"></p>
+						<p>
+							<label for="experience">Experience</label>
+							<input id="experience" type="text" name="experience"required></p>
+						<p>
+							<label for="reference">Reference</label>
+							<input id="reference" type="text" name="reference"required></p>
+
+
+							
+
+							<button type="submit" onclick="validate()" name="signupbutton">Create New Account</button>
+					</form>
+				    </div>
+			</div>
+	</div>   
+<script>
+	function validate() {
+		var un = document.login.loginUsername.value;
+		console.log(un);
+		var pw= document.login.loginPassword.value;
+		var un1= document.reg.Username.value;
+		var fn= document.reg.Firstname.value;
+		var ln= document.reg.Lastname.value;
+		var em= document.reg.email.value;
+		var pw1= document.reg.Password.value;
+		var sk= document.reg.skills.value;
+		var exp= document.reg.experience.value;
+		var ref= document.reg.reference.value;
+		alert(un);
+		//alert(`Email,${em}!`,`Password,${pw1}!`,`skills,${sk}!`,`Experience,${exp}!`,`reference,${ref}!`);
+	}
+
+
+</script>
+		 
+
+
+</body>
+</html>
